@@ -1,0 +1,24 @@
+header h1{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
